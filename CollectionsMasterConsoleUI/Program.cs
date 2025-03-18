@@ -22,7 +22,7 @@ namespace CollectionsMasterConsoleUI
             // 3] TODO: Create a method to populate the number array with 50 random numbers that are between 0 and 50
             ///////////////////////////////////////////////
             ///
-            // See Methods section below
+            
 
             Populater(myArray);
             //var randomArray = new Random();
@@ -176,6 +176,8 @@ namespace CollectionsMasterConsoleUI
 
             // 19] TODO: Clear the list
 
+            Console.WriteLine("The LIST has been CLEARED!!");
+
             create.Clear();
 
            
@@ -184,21 +186,21 @@ namespace CollectionsMasterConsoleUI
         }
 
         #region
-        private static void byThrees()
-        {
-            for (int i = 0; i < myArray.Length; i++)
-            {
-                if (i % 3 == 0)
-                {
-                    i = 0;
-                }
-                else
-                {
-                    i = i;
+        //private static void byThrees()
+        //{
+        //    for (int i = 0; i < myArray.Length; i++)
+        //    {
+        //        if (i % 3 == 0)
+        //        {
+        //            i = 0;
+        //        }
+        //        else
+        //        {
+        //            i = i;
 
-                }
-            }
-        }
+        //        }
+        //    }
+        //}
 
         //private static void removeOdds()
         //{
