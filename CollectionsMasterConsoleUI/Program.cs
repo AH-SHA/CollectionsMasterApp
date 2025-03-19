@@ -9,19 +9,24 @@ namespace CollectionsMasterConsoleUI
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
-                // 1] TODO: Follow the steps provided in the comments under each region.
-                //Make the console formatted to display each section well
-                //Utlilize the method stubs at the bottom for the methods you must create ⬇⬇⬇
+            // 1] TODO: Follow the steps provided in the comments under each region.
+            //Make the console formatted to display each section well
+            //Utlilize the method stubs at the bottom for the methods you must create ⬇⬇⬇
+
+
 
             #region Arrays
-                // 2] TODO: Create an integer Array of size 50
-            
+            // 2] TODO: Create an integer Array of size 50
+
             int[] myArray = new int[50];
 
-                // 3] TODO: Create a method to populate the number array with 50 random numbers that are between 0 and 50
-            
+            // 3] TODO: Create a method to populate the number array with 50 random numbers that are between 0 and 50
+
+
+
             Populater(myArray);
             
 
@@ -51,8 +56,7 @@ namespace CollectionsMasterConsoleUI
 
             Array.Reverse(myArray);
 
-            Console.WriteLine(myArray);
-
+            
             Console.WriteLine("All Numbers Reversed:");
 
             Console.WriteLine("---------REVERSE CUSTOM------------");
@@ -252,13 +256,13 @@ namespace CollectionsMasterConsoleUI
         {
             Random rng = new Random();
 
-                        
+
             for (int i = 0; i < myArray.Length; i++)
             {
                 myArray[i] = rng.Next(0, 51);
 
             }
-            Console.WriteLine(myArray);
+            
 
         }        
 
